@@ -2,6 +2,31 @@
 <html lang="en">
 <head>
 <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #4682B4;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #FF0000;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #2E8B57;
+    color: white;
+}
+
 div.img {
     border: 1px solid #ccc;
 }
@@ -51,6 +76,12 @@ div.desc {
 </style>
 </head>
 <body>
+<ul>
+  <li><a class="active" href="#home"><font size=+2>Home</a></li></font>
+  <li><a calss="active" href="#products"><a href="products.html"><font size=+2>Products</a></li></font>
+  <li><a href="#contact"><font size=+2>Contact</a></li></font>
+  <li><a href="#about"><font size=+2>About</a></li></font>
+</ul>
 
 <h2 style="text-align:center">Products</h2>
 
