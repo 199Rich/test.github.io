@@ -3,6 +3,7 @@ html {
   background: -webkit-linear-gradient (#A9A9A9, #F8F8FF);
   background:    -moz-linear-gradient (#A9A9A9, #F8F8FF);
   background:         linear-gradient (#A9A9A9, #F8F8FF);
+}
 
 p {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
