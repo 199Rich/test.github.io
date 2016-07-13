@@ -92,15 +92,15 @@ div.desc {
 
 #contact-form {
     background-color:#F2F7F9;
-    width:2000px;
+    background-size: cover;
     min-height:100%;
     padding:20px;
-    margin: 50px auto; 
+    margin: 0 auto; 
     border: 6px solid #8FB5C1;
     -moz-border-radius:15px;
     -webkit-border-radius:15px;
     border-radius:15px;
-    position:center center fixed;
+    background-position: top center;
 }
  
 #contact-form h1 {
