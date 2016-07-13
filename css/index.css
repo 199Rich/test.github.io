@@ -95,11 +95,7 @@ div.desc {
     background-size: cover;
     padding:20px;
     margin: 50px auto;    
-    border: 6px solid #8FB5C1;
-    -moz-border-radius:15px;
-    -webkit-border-radius:15px;
-    border-radius:15px;
-    position:center center absolute;
+    position:center center fixed;
 }
  
 #contact-form h1 {
