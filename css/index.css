@@ -92,7 +92,7 @@ div.desc {
 
 #contact-form {
     background-color:#F2F7F9;
-    background-size: cover;
+    background-size: 100% 100%;
     min-height:100%;
     padding:40px;
     margin: 0 auto; 
