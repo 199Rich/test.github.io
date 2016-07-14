@@ -16,10 +16,3 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
     modal.style.display = "none";
 }
-
-
-
-var a = document.createElement("img");
-a.src = "img/IMG_0190.JPG";
-a.height = 100;
-a.width = 100;
