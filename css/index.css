@@ -1,7 +1,8 @@
 html {
-  background:url('img/IMG_0190.JPG') no-repeat center center;
-  min-height:100%;
-  background-size:cover;
+  background: #FAFAD2;
+  background: -webkit-linear-gradient (#F0E68C, #FFD700);
+  background:    -moz-linear-gradient (#F0E68C, #FFD700);
+  background:         linear-gradient (#F0E68C, #FFD700);
 }
 
 p {
