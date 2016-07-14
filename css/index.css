@@ -1,8 +1,8 @@
 html {
   background: #FAFAD2;
-  background: -webkit-linear-gradient (#F0E68C, #FFD700);
-  background:    -moz-linear-gradient (#F0E68C, #FFD700);
-  background:         linear-gradient (#F0E68C, #FFD700);
+  background: -webkit-linear-gradient (#BDB76B, #FFFF00);
+  background:    -moz-linear-gradient (#BDB76B, #FFFF00);
+  background:         linear-gradient (#BDB76B, #FFFF00);
 }
 
 p {
