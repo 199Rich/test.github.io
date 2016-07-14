@@ -99,7 +99,7 @@ div.desc {
     -moz-border-radius:15px;
     -webkit-border-radius:15px;
     border-radius:15px;
-    background-position: center center;
+    background-position: center center fixed;
 }
  
 #contact-form h1 {
