@@ -1,0 +1,261 @@
+html {
+  background: #536151;
+  background: -webkit-linear-gradient (#5F705C, #6A7D67);
+  background:    -moz-linear-gradient (#5F705C, #6A7D67);
+  background:         linear-gradient (#5F705C, #6A7D67);
+}
+
+p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/*navigation menu*/
+body {margin:0;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #778899;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #2E8B57;
+}
+.active {
+    background-color: #FFA500;
+}
+   
+
+
+/* products */
+div.img {
+    border: 1px solid #000000;
+}
+
+div.img:hover {
+    border: 1px solid #2E8B57; /*original color was #ccc*/
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*please note position relative will put contact form over menu bar when scrolling up and down.*/
+/*please note position fixed center will put contact form behind menu bar when scrolling up and down.*/
+#contact-form {
+    background-color:#536151;
+    width:500px;
+    padding:20px;
+    margin: 50px auto;
+    position: fixed center;
+}
+ 
+#contact-form h1 {
+    font-size:42px;
+}
+ 
+#contact-form h2 {
+    margin-bottom:15px;
+    font-style:italic;
+    font-weight:normal;
+}
+ 
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea, 
+#contact-form label {
+    font-size:15px;
+    margin-bottom:2px;
+}
+ 
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea {
+    width:450px;
+    border: 1px solid #CEE1E8;
+    margin-bottom:20px;
+    padding:4px;
+}
+ 
+#contact-form input:focus, 
+#contact-form select:focus, 
+#contact-form textarea:focus {
+    border: 1px solid #AFCDD8;
+    background-color: #EBF2F4;
+}
+ 
+#contact-form textarea {
+    height:150px;
+    resize: none;
+}
+ 
+#contact-form label {
+    display:block;
+}
+ 
+#contact-form .required {
+    font-weight:bold;
+    color:#F00;    
+}
+ 
+#contact-form #submit-button {
+    width: 100px;
+    background-color:#333;
+    color:#FFF;
+    border:none;
+    display:block;
+    float:right;
+    margin-bottom:0px;
+    margin-right:6px;
+    background-color:#8FB5C1;
+    -moz-border-radius:8px;
+}
+ 
+#contact-form #submit-button:hover {
+    background-color: #A6CFDD;
+}
+ 
+#contact-form #submit-button:active {
+    position:relative;
+    top:1px;
+}
+ 
+#contact-form #loading {
+    width:32px;
+    height:32px;
+    background-image:url(../img/loading.gif);
+    display:block;
+    position:absolute;
+    right:130px;
+    bottom:16px;
+    display:none;
+}
+ 
+#errors {
+    border:solid 1px #E58E8E;
+    padding:10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
+    display:none;
+}
+ 
+#errors li {
+    padding:2px;
+    list-style:none;    
+}
+ 
+#errors li:before {
+    content: ' - ';    
+}
+ 
+#errors #info {
+    font-weight:bold;
+}
+ 
+#errors #info:before {
+    content: '';    
+}
+ 
+#success {
+    border:solid 1px #83D186;
+    padding:25px 10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
+    font-weight:bold;
+    display:none;
+}
+ 
+#errors.visible, #success.visible {
+    display:block;    
+}
+ 
+#req-field-desc {
+    font-style:italic;
+}
+ 
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
+input:required, textarea:required {
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+    box-shadow:none;
+}
+ 
+/* Normalize placeholder styles */
+ 
+/* chrome, safari */
+::-webkit-input-placeholder {
+    color:#CCC;
+    font-style:italic;
+}
+ 
+/* mozilla */
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color:#CCC;
+    font-style:italic;
+}
+ 
+/* ie (faux placeholder) */
+input.placeholder-text, textarea.placeholder-text  { 
+    color:#CCC;
+    font-style:italic;
+}
