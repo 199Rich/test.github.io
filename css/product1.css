@@ -5,6 +5,9 @@ html {
   background:         linear-gradient (#5F705C, #6A7D67);
 }
 
+p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 
 #myImg {
     border-radius: 5px;
