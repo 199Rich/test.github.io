@@ -56,6 +56,43 @@ form .required {
 }
 
 
+
+
+
+
+
+
+
+#wrapper {
+    position: absolute;
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+.button {
+    background-color: #FFA500; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
 </style>
 </head>
 <body>
@@ -82,7 +119,7 @@ form .required {
    <p id="req-field-desc"><span class="required">*</span>Indicates a required field. (For quantity over 10 please contact us.)</p>
 </form>
 
-
+<div id="wrapper"><button class="button button2">Add to Cart</button></div>
 
 <script type="text/javascript" src="js/products.js"></script>
 
