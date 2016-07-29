@@ -116,6 +116,7 @@ p {
     border: none;
     color: white;
     padding: 15px 32px;
+    float: right;
     text-align: center;
     text-decoration: none;
     display: inline-block;
