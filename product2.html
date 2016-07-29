@@ -69,6 +69,32 @@ hr {
     box-shadow: 3px 2px 5px #000000;
 }
 
+
+
+
+
+
+
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 </style>
 </head>
 <body>
@@ -95,7 +121,8 @@ hr {
     <input type="submit" value="Submit" id="submit">
    <p id="req-field-desc"><span class="required">*</span>Indicates a required field. (For quantity over 10 please contact us.)</p>
 </form></div>
-<p style= "text-align: right;"><button onclick="goBack()">Go Back</button></p>
+<p style= "text-align: right;"><button class="button button1"><onclick="goBack()">Go Back</button></p>
+
 
 <script type="text/javascript" src="js/products.js"></script>
 
