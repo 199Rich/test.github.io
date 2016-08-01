@@ -4,38 +4,71 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="css/product1.css">
 <style>
-#wrapper {
-    position: absolute;
-    margin-left:auto;
-    margin-right:auto;
-    width:960px;
+#page-wrap {
+  width: 500px;
+  margin: 100px auto;
+}
+h1 {
+  font: 26px Georgia, Serif;
+  margin: 0 0 10px 0;
+}
+form {
+  margin: 50px 0 0 0;
+}
+label {
+  font: bold 20px Helvetica, sans-serif;
+  display: block;
+  float: left;
+  text-align: right;
+  padding: 5px 10px 0 0;
+  width: 140px;
+}
+input[type=text] {
+  float: left;
+  width: 40px;
+  font: bold 20px Helvetica, sans-serif;
+  padding: 3px 0 0 0;
+  text-align: center;
+}
+form div {
+  overflow: hidden;
+  margin: 0 0 5px 0;
 }
 .button {
-    background-color: #FFA500; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+  margin: 0 0 0 5px;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 29px;
+  height: 29px;
+  float: left;
+  text-align: center;
 }
-.button1 {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+.dec {
+  background-position: 0 -29px;
 }
-.button2:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+.buttons {
+  padding: 20px 0 0 140px;
 }
-
+form .required {
+    font-weight:bold;
+    color:#F00;    
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #778899;
+    margin: 1em 0;
+    padding: 0; 
+    box-shadow: 3px 2px 5px #000000;
+}
 </style>
 </head>
 <body>
 
- <div style="width: 608px; font-size: 150%; color: #C0C0C0; font-family: Lucida Sans Unicode; Lucida Grande; sans-serif; text-align: left;"><img id="myImg" src="img\IMG_0153.JPG" alt="Trolltunga, Norway" width="608" height="456" style="padding-bottom:0.1em;">Test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test.</div>
+
+
+
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -43,9 +76,23 @@
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
- 
+
+<p style=  "text-align: center;"><img id="myImg" src="img\IMG_0153.JPG" alt="Image Test" width="608" height="456"></p>
+<div style="width: 100%; font-size: 150%; color: #C0C0C0; font-family: Lucida Sans Unicode; Lucida Grande; sans-serif; text-align: left;">Test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test.</div>
+<hr>
+<div style="width: 100%; font-size: 150%; color: #C0C0C0; font-family: Lucida Sans Unicode; Lucida Grande; sans-serif; text-align: left;"><form method="post" action="">
+    <div>
+        <label for="name">Quantity: <span class="required">*</span></label>
+        <input type="number" name="quantity" id="quantity" min="1" max="10" placeholder="3" required="required">
+  </div>
+    <input type="submit" value="Submit" id="submit">
+   <p id="req-field-desc"><span class="required">*</span>Indicates a required field. (For quantity over 10 please contact us.)</p>
+</form></div>
+<p style= "text-align: right;"><button onclick="goBack()"><div style="color: #FFA500; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); font-size: 150%; font-weight: bold;">Go Back</button></p>
+
+
 <script type="text/javascript" src="js/products.js"></script>
 
-<div id="wrapper"><button class="button button2">Add to Cart</button></div>
+
 </body>
 </html>
