@@ -19,5 +19,5 @@ span.onclick = function() {
 
 
 function goBack() {
-    window.history.back(1);
+    window.history.back(-1);
 }
