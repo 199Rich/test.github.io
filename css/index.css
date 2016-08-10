@@ -93,7 +93,6 @@ div.desc {
 /*please note position relative will put contact form over menu bar when scrolling up and down.*/
 /*please note position fixed center will put contact form behind menu bar when scrolling up and down.*/
 #contact-form {
-    background-color:#536151;
     width:500px;
     padding:25px;
     margin: 40px auto;
