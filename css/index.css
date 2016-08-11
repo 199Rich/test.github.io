@@ -98,7 +98,7 @@ div.desc {
     width:500px;
     padding:25px;
     margin: 40px auto;
-    position: fixed center;
+    position: relative;
 }
  
 #contact-form h1 {
