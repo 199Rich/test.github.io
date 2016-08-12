@@ -99,8 +99,8 @@ div.desc {
     box-shadow: -0px -0px 5px #000000;
     width:500px;
     padding:25px;
-    margin: 40px auto;
-    position: center fixed;
+    margin: 0 auto;
+    
 }
  
 #contact-form h1 {
