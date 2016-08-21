@@ -47,7 +47,7 @@ div.img {
 }
 
 div.img:hover {
-    border: 1px solid #adff2f; /*original color was #ccc second color was 2E8B57*/
+    border: 1px solid #ffff00; /*original color was #ccc second color was 2E8B57*/
 }
 
 div.img img {
