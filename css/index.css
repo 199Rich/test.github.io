@@ -51,7 +51,7 @@ div.img:hover {
 }
 
 div.img img {
-    width: 100%;
+    width: 50%;
     height: auto;
     box-shadow: 0px 0px 15px #000000;
 }
