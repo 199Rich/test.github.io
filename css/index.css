@@ -127,6 +127,7 @@ div.desc {
     border: 1px solid #CEE1E8;
     margin-bottom:20px;
     padding:4px;
+    box-shadow: 3px 2px 5px #000000;
 }
  
 #contact-form input:focus, 
