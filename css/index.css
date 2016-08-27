@@ -53,7 +53,7 @@ div.img:hover {
 div.img img {
     width: 100%;
     height: auto;
-    box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px #9D9D9D;
 }
 
 div.desc {
