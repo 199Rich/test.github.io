@@ -20,23 +20,32 @@ hr {
  margin: 0 auto; /* center via left/right margins */
 }
 
-/*GROW*/
-.grow img {
-  height: 250px;
-  width: 320px;
- 
+   .image-box{
+  width:320px;
+  overflow:hidden;
+}
+.image {
+	width:320px;
+  height:250px;
+	background: url("img\IMG_0153.JPG");
+	background-position:center;
+	transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
   -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
- 
-.grow img:hover {
-  width: 400px;
-  height: 400px;
-}
-
+  -o-transition: all 1s ease;
+} 
+.image:hover {
+  transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
+   filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand'); /* IE6 and 7 */ 
+} 
+   
+    
 </style>
 </head>
 <body>
@@ -62,9 +71,12 @@ hr {
 
 
 
-<div class="grow pic">    
+<div>
+<div class="image-box">
+<div class="image">
  <p style="float:left;text-align:center;font-size:100%;width:320px;padding-bottom:0.5em;"><img src="img\IMG_0153.JPG" alt="" width="320" height="250" style="padding-left:0.5em;">Test</p>
  </div>
+ </div> 
 
 <div>
 <p style=""float:left;text-align:center;font-size:100%;width:320px;padding-bottom:0.5em;"><img id="myImg" src="img\IMG_0093.JPG" alt="" width="320" height="250" style="padding-left:0.5em;">Test</p>
