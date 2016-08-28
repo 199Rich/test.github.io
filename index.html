@@ -19,14 +19,14 @@ p.padding {
     padding-left: 1.5em;
 }
 
-.float_center {
+p.float_center {
   float: right;
 
   position: relative;
   left: -50%; /* or right 50% */
   text-align: left;
 }
-.float_center > .child {
+p.float_center > .child {
   position: relative;
   left: 50%;
 }
@@ -56,8 +56,8 @@ p.padding {
 <div style="width:320px; font-size:100%; text-align:center; float:left;"><p class="padding"><img id="myImg" src="img\IMG_0153.JPG" alt="Image Test" 
 width="320" height="250" style="padding-bottom:0.5em;"/>Test</div></p>
 
-<div style="width:320px; font-size:100%; text-align:center; float:right;"><div class="float_center"><img id="myImg" src="img\IMG_0093.JPG" alt="Image Test" 
-width="320" height="250" style="padding-bottom:0.5em;"/>Test</div>
+<div style="width:320px; font-size:100%; text-align:center; float:right;"><p class="float_center"><img id="myImg" src="img\IMG_0093.JPG" alt="Image Test" 
+width="320" height="250" style="padding-bottom:0.5em;"/>Test</div></p>
 
 <script type="text/javascript" src="js/products.js"></script>
 </body>
