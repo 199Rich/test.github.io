@@ -20,6 +20,23 @@ hr {
  margin: 0 auto; /* center via left/right margins */
 }
 
+/*GROW*/
+.grow img {
+  height: 250px;
+  width: 320px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
+
 </style>
 </head>
 <body>
@@ -40,17 +57,17 @@ hr {
 <div id="myModal" class="modal">
   <span class="close">×</span>
   <img class="modal-content" id="img01">
-  <img class="modal-content" id="img02">
   <div id="caption"></div>
 </div>
 
 
 <div>
- <p style="float:left;text-align:center;font-size:100%;width:320px;padding-bottom:0.5em;"><img id="myImg" src="img\IMG_0153.JPG" alt="" width="320" height="250" style="padding-left:0.5em;">Test</p>
+<div class="grow pic">    
+ <p style="float:left;text-align:center;font-size:100%;width:320px;padding-bottom:0.5em;"><img src="img\IMG_0153.JPG" alt="" width="320" height="250" style="padding-left:0.5em;">Test</p>
  </div>
 
 <div>
-<p style="text-align:center;font-size:100%;width:320px;padding-bottom:0.5em;"><img id="myImg" src="img\IMG_0093.JPG" alt="" width="320" height="250" style="padding-left:0.5em;">Test</p>
+<p style=""float:left;text-align:center;font-size:100%;width:320px;padding-bottom:0.5em;"><img id="myImg" src="img\IMG_0093.JPG" alt="" width="320" height="250" style="padding-left:0.5em;">Test</p>
 </div>
 
 
