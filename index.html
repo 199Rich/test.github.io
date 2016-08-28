@@ -15,9 +15,11 @@ hr {
     padding: 0; 
     box-shadow: 3px 1px 1px #000000;
 
-    p {
-      text-align:center;
-    }
+    div {
+ display: table; /* shrink wrap the contents */
+ margin: 0 auto; /* center via left/right margins */
+}
+
 </style>
 </head>
 <body>
@@ -41,19 +43,12 @@ hr {
   <div id="caption"></div>
 </div>
 
-<div class="container">
-  <div class="img">
-    <img id="myImg" src="img\IMG_0153.JPG" alt="" width="320" height="250">
-<p>This is image 1</p>
-</div>
-</div>
-  
- <div class="container">
-  <div class="img">
-    <img id="myImg" src="img\IMG_0153.JPG" alt="" width="320" height="250">
-<p>This is image 1</p>
-</div>
-</div> 
+
+<div>
+ <img id="myImg" src="img\IMG_0153.JPG alt="" width="320" height="250">
+ <img id="myImg" src="img\IMG_0153.JPG alt="" width="320" height="250">
+ </div>
+
 
 <div style="width:320px; font-size:100%; text-align:center;"><p class="padding2"><img id="myImg" src="img\IMG_0093.JPG" style=float: left;margin-right: 1% alt="Image Test" 
 width="320" height="250" style="padding-bottom:0.5em;"/>Test</div></p>
