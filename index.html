@@ -14,14 +14,14 @@ hr {
     margin: 1em 0;
     padding: 0; 
     box-shadow: 3px 1px 1px #000000;
-}
-p.padding {
-    padding-left: 1.5em;
-}
 
-p.padding2 {
-    padding-right: 1.5em;
-}
+div.container {
+      display:inline-block;
+    }
+
+    p {
+      text-align:center;
+    }
 </style>
 </head>
 <body>
@@ -45,10 +45,12 @@ p.padding2 {
   <div id="caption"></div>
 </div>
 
-<div style="width:320px; font-size:100%; text-align:center;"><p class="padding"><img id="myImg" src="img\IMG_0153.JPG"style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"
-width="320" height="250" style="padding-bottom:0.5em;"/>Test</div></p>
+<div class="container">
+<img id="myImg" src="img\IMG_0153.JPG" height="320" width="250" />
+<p>This is image 1</p>
+  </div>
 
-<div style="width:320px; font-size:100%; text-align:center; float:right;"><p class="padding2"><img id="myImg" src="img\IMG_0093.JPG" alt="Image Test" 
+<div style="width:320px; font-size:100%; text-align:center;"><p class="padding2"><img id="myImg" src="img\IMG_0093.JPG" style=float: left;margin-right: 1% alt="Image Test" 
 width="320" height="250" style="padding-bottom:0.5em;"/>Test</div></p>
 
 
