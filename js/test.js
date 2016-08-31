@@ -2,8 +2,6 @@ $(document).ready(function(){
 
 	var native_width = 0;
 	var native_height = 0;
-        var loadLocker = true;
-	var image_object = null;
 	//Now the mousemove function
 	$(".magnify").mousemove(function(e){
 		//When the user hovers on the image, the script will first calculate
