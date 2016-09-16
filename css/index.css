@@ -17,7 +17,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #7D1935;
-    position: fixed center;
+    position: fixed;
     top: 0;
     width: 100%;
     box-shadow: 3px 2px 5px #000000;
