@@ -34,7 +34,7 @@ li a {
     text-decoration: none;
 }
 li a:hover:not(.active) {
-    background-color: #254117;
+    background-color: #667C26;
 }
 .active {
     background-color: #4C787E;
